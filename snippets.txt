@@ -1,0 +1,185 @@
+===========================================================================
+ Red Stick Reader — SNIPPETS FOR THE TEAM GIT EXERCISE
+===========================================================================
+
+ Copy from THIS FILE, not from the printed handout. Copying HTML out of a
+ PDF turns straight quote marks into curly ones, which breaks links in ways
+ that look mysterious and have nothing to do with Git.
+
+ Each step tells you which block is yours.
+
+===========================================================================
+ STEP 2 — content for your own page
+===========================================================================
+
+ Paste into YOUR OWN page, on the line marked:
+
+     <!-- STEP 2: paste your content block from snippets.txt on the line below -->
+
+ One person per page. Nobody touches index.html in this step.
+
+
+---------------------------------------------------------------------------
+ staff-picks.html
+---------------------------------------------------------------------------
+
+<h2>What We Are Reading</h2>
+<ul>
+  <li><strong>A Confederacy of Dunces</strong> &mdash; still the funniest book
+      anybody has written about this state.</li>
+  <li><strong>Salvage the Bones</strong> &mdash; Ward writes a hurricane better
+      than anyone.</li>
+  <li><strong>The Awakening</strong> &mdash; Chopin, and worth rereading.</li>
+  <li><strong>All the King&rsquo;s Men</strong> &mdash; ask us about the first
+      edition in the case.</li>
+</ul>
+
+
+---------------------------------------------------------------------------
+ events.html
+---------------------------------------------------------------------------
+
+<h2>This Month</h2>
+<ul>
+  <li><strong>Poetry night</strong> &mdash; first Thursday, 7pm. Open mic,
+      six minutes each, sign up at the counter.</li>
+  <li><strong>Local authors signing</strong> &mdash; second Saturday, 2pm.</li>
+  <li><strong>Mystery book club</strong> &mdash; last Friday, 6pm.</li>
+</ul>
+<p>Everything is free and nothing needs a ticket. Just turn up.</p>
+
+
+---------------------------------------------------------------------------
+ book-clubs.html
+---------------------------------------------------------------------------
+
+<h2>Four Reading Groups</h2>
+<ul>
+  <li><strong>Mystery Club</strong> &mdash; last Friday of the month, 6pm</li>
+  <li><strong>Southern Fiction</strong> &mdash; second Sunday, 3pm</li>
+  <li><strong>Poetry Circle</strong> &mdash; every other Wednesday, 7pm</li>
+  <li><strong>Young Readers</strong> (ages 9&ndash;13) &mdash; Saturdays, 11am</li>
+</ul>
+<p>All four welcome newcomers, and none of them mind if you have not finished
+   the book.</p>
+
+
+---------------------------------------------------------------------------
+ new-arrivals.html
+---------------------------------------------------------------------------
+
+<h2>Just In</h2>
+<ul>
+  <li>Twelve boxes of used hardbacks from an estate in Spanish Town &mdash;
+      shelved Thursday.</li>
+  <li>New translations of Bola&ntilde;o and Ferrante.</li>
+  <li>The autumn poetry chapbooks from three Louisiana presses.</li>
+</ul>
+<p>New stock goes out on Tuesday and Thursday mornings. The good things do not
+   last the week.</p>
+
+
+---------------------------------------------------------------------------
+ visit.html
+---------------------------------------------------------------------------
+
+<h2>Getting Here</h2>
+<p>5120 Plank Road, Baton Rouge, LA 70806</p>
+<p>Open Tuesday to Sunday, 10am to 7pm. Closed Mondays.</p>
+<h2>Parking</h2>
+<p>Free lot behind the building, entrance from the side street. On-street
+   parking is two hours and enforced.</p>
+
+
+===========================================================================
+ STEP 3 — the footer
+===========================================================================
+
+ EVERYBODY adds this same line to the bottom of THEIR OWN page, just above
+ the closing </body> tag, where the comment says STEP 3.
+
+ Same line, different files — which is why these merge without trouble.
+
+<footer>Red Stick Reader &mdash; 5120 Plank Road, Baton Rouge</footer>
+
+
+===========================================================================
+ STEP 4 — your card on the home page
+===========================================================================
+
+ EVERYBODY pastes their own card into index.html, at the line marked:
+
+     <!-- ADD YOUR CARD HERE -->
+
+ The same line, in the same file, for all of you. That is the point.
+ Take the card that matches the page you own.
+
+
+---------------------------------------------------------------------------
+ owner of staff-picks.html
+---------------------------------------------------------------------------
+
+    <!-- Staff Picks card -->
+    <article>
+      <h3>Staff Picks</h3>
+      <p>What we are reading and pressing into customers&rsquo; hands.</p>
+      <a href="staff-picks.html">Browse the picks</a>
+    </article>
+    <!-- end Staff Picks card -->
+
+
+---------------------------------------------------------------------------
+ owner of events.html
+---------------------------------------------------------------------------
+
+    <!-- Events card -->
+    <article>
+      <h3>Events</h3>
+      <p>Readings, signings and the monthly poetry night.</p>
+      <a href="events.html">See what is on</a>
+    </article>
+    <!-- end Events card -->
+
+
+---------------------------------------------------------------------------
+ owner of book-clubs.html
+---------------------------------------------------------------------------
+
+    <!-- Book Clubs card -->
+    <article>
+      <h3>Book Clubs</h3>
+      <p>Four reading groups, and all of them welcome newcomers.</p>
+      <a href="book-clubs.html">Join one</a>
+    </article>
+    <!-- end Book Clubs card -->
+
+
+---------------------------------------------------------------------------
+ owner of new-arrivals.html
+---------------------------------------------------------------------------
+
+    <!-- New Arrivals card -->
+    <article>
+      <h3>New Arrivals</h3>
+      <p>What came in this week, and what will not last the month.</p>
+      <a href="new-arrivals.html">See the new stock</a>
+    </article>
+    <!-- end New Arrivals card -->
+
+
+---------------------------------------------------------------------------
+ owner of visit.html
+---------------------------------------------------------------------------
+
+    <!-- Visit card -->
+    <article>
+      <h3>Visit</h3>
+      <p>Where we are, when we are open, and where to park.</p>
+      <a href="visit.html">Find us</a>
+    </article>
+    <!-- end Visit card -->
+
+
+===========================================================================
+ END
+===========================================================================
